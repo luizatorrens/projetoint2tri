@@ -27,6 +27,9 @@ export default {
       const indice = this.autores.indexOf(autor);
       this.autores.splice(indice, 1);
     },
+    alerta() {
+      alert("Ok!");
+    },
   },
 };
 </script>
@@ -59,8 +62,8 @@ export default {
             <td>{{ autor.id }}</td>
             <td>{{ autor.name }}</td>
             <td>
-              <button>Editar</button>
-              <button @click="excluir(autor)">Apagar</button>
+              <button @click="alerta(livro)">Editar</button>
+              <button @click="excluir(livro)">Excluir</button>
             </td>
           </tr>
         </tbody>

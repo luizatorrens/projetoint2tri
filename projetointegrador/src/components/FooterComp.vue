@@ -1,3 +1,3 @@
 <template>
-  <footer>oi</footer>
+  <footer>Desenvolvido por Camila e Luiza!</footer>
 </template>

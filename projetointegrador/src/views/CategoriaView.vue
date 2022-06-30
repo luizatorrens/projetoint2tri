@@ -27,6 +27,9 @@ export default {
       const indice = this.categorias.indexOf(categoria);
       this.categorias.splice(indice, 1);
     },
+    alerta() {
+      alert("Ok!");
+    },
   },
 };
 </script>
@@ -59,8 +62,8 @@ export default {
             <td>{{ categoria.id }}</td>
             <td>{{ categoria.categoria }}</td>
             <td>
-              <button>Editar</button>
-              <button @click="excluir(categoria)">Apagar</button>
+              <button @click="alerta(livro)">Editar</button>
+              <button @click="excluir(livro)">Excluir</button>
             </td>
           </tr>
         </tbody>

@@ -27,7 +27,7 @@ header {
 }
 footer {
   background-color: rgb(255, 135, 135);
-  color: rgb(29, 29, 173);
+  color: white;
   height: 5%;
   font-size: 1.3rem;
 }
